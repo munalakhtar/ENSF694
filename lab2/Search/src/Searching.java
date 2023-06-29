@@ -140,7 +140,7 @@ public class Searching {
             System.out.println("Search key NOT FOUND");
         }
         
-        System.out.println("\nDuration for Interpolation Search in Nano Seconds : " + durationImproved );
+        System.out.println("\nDuration for Improved Linear Search in Nano Seconds : " + durationImproved );
         
         scan.close();
     }
