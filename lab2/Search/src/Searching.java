@@ -39,9 +39,9 @@ public class Searching {
         return -1;
     }
 	
-    // We assume that improved linear search works best when provided with a sorted array
+    // We assume that improved linear search works best when provided with a sorted array and uniformly distributed array
     public static int improvedLinearSearch(int[] arr, int key) {
-    	if ((arr.length>1) && (key-arr[0] < arr.length-1-key))
+    	if ((arr.length>1) && (key-arr[0] < arr[arr.length-1]-key))
     	{
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
